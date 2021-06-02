@@ -1,1 +1,1 @@
-Public folders contains the frontend of the project
+Public folders contains the frontend files of the project
