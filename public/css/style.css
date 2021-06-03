@@ -1,0 +1,30 @@
+.container{  
+margin-top: 50px;
+text-align: center;  
+border: 2px solid lightgrey;  
+width: 500px;  
+height: 300px;  
+padding-top: 130px;  
+} 
+
+#text{
+	text-align: center;
+	padding-top: 100px;
+	font-size: 40px;
+	font-family: sans-serif;
+	color: grey;
+	font-weight: bold;
+}
+.textstudent{
+	margin: 15px;
+	text-align: center;
+	text-decoration: underline;
+}
+.container2{
+	border: 1px solid grey;
+	
+}
+.size{
+	width: 150px;
+	height: 140px;
+}
