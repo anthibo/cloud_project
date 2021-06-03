@@ -1,0 +1,36 @@
+[{
+        "uni_id": 1952523712,
+        "name": "Abdulrahman Khalid",
+        "gpa": 3.0,
+        "img": "img/hinata.jpeg"
+
+    },
+    {
+        "uni_id": 1287412907,
+        "name": "Farah Bakry",
+        "gpa": 3.0,
+        "img": "img/harrypotter.jpg"
+
+    },
+    {
+        "uni_id": 321432433,
+        "name": "Sohaila Affify",
+        "gpa": 3.0,
+        "img": "img/singer.jpg"
+
+    },
+    {
+        "uni_id": 43213214321,
+        "name": "Areej Mohamed",
+        "gpa": 3.0,
+        "img": "img/amina.jpg"
+
+    },
+    {
+        "uni_id": 432432421334,
+        "name": "Mariam Ahmed",
+        "gpa": 3.0,
+        "img": "img/postmalone.jpg"
+
+    }
+]

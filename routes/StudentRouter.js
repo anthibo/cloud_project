@@ -1,11 +1,11 @@
 const express = require('express')
-const tourController = require('./../controllers/StudentController')
+const studentController = require('./../controllers/StudentController')
 
 const router = express.Router();
 
 
 router
     .route('/')
-    .get()
+    .get(studentController.getAllStudents)
 
 module.exports = router;

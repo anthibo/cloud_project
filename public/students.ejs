@@ -30,12 +30,18 @@
                 </tr>
             </thead>
             <tbody>
+
+
+                <% data.forEach(element => {%>
                 <tr>
-                    <th scope="row">number</th>
-                    <td>Name</td>
-                    <td>ID</td>
-                    <td>GPA</td>
-                    <td><img class="size" src="img\1200px-Pink_2019-07-27_Munich_(cropped).jpg"></td>
+                    <th scope="row"> </th>
+                    <td><%= element.name %></td>
+                    <td><%= element.uni_id %></td>
+                    <td><%= element.gpa %></td>
+                    <td><img class="size" src=<%= element.img %>></td>
+                    <% });  %>
+
+
                 </tr>
             </tbody>
         </table>
