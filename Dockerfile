@@ -15,6 +15,9 @@ RUN npm install
 # Bundle app source
 COPY . .
 
+#importing database
+RUN node ./data/import_db.js --import
+
 EXPOSE 3000
 
-CMD [ "node", "server.js" ]
+CMD  [ "npm", "start" ] 

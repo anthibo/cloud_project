@@ -4,6 +4,7 @@
   "description": "a simple website for the cloud project",
   "main": "app.js",
   "scripts": {
+
     "start": "node server.js"
   },
   "repository": {
