@@ -1,11 +1,12 @@
 {
     "AWSEBDockerrunVersion": "1",
     "Image": {
-        "Name": "anthibo/cloud-project-2",
+        "Name": "anthibo/cloud-project-simplified-  ",
         "Update": "true"
     },
-    "Port": [{
+    "Ports": [{
         "ContainerPort": 3000,
         "HostPort": 3000
     }]
+
 }

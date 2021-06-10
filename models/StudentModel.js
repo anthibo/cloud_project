@@ -1,5 +1,7 @@
 const mongoose = require('mongoose')
 
+//Model Scehma
+//Mongo db collection (Nosql)-> table in sql
 const studentSchema = new mongoose.Schema({
     name: {
         type: String,

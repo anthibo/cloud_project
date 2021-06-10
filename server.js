@@ -1,13 +1,22 @@
+
+
 const mongoose = require('mongoose')
 
 const dotenv = require('dotenv');
 dotenv.config({ path: 'config.env' });
+
+
 const app = require('./app');
 
+
+
+
+//Connecting to database
 const CloudDB = process.env.DATABASE.replace('<PASSWORD>', process.env.DB_PASSWORD)
+
 const localDB = process.env.DATABASE_LOCAL
 mongoose
-    .connect(localDB, {
+    .connect(CloudDB, {
         useNewUrlParser: true,
         useCreateIndex: true,
         useFindAndModify: false,
@@ -17,7 +26,7 @@ mongoose
         console.log("DB Connection successful ");
     })
 
-//STARTING SERVER
+//STARTING SERVER 
 const port = process.env.PORT || 8000;
 app.listen(port, () => {
     console.log(`app running on port ${port}`);

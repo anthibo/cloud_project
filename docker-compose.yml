@@ -2,6 +2,7 @@ version: "3"
 services:
   app:
     container_name: docker-node-mongo
+    image: anthibo/cloud-project
     restart: always
     build: .
     ports:
