@@ -3,4 +3,4 @@ The website takes a http get request from the client and send back the student d
 This project aims to apply dockerfile to build a node image, docker compose to run multiple containers together and using aws elastic beanstalk to deploy.
 
 
-Live Action demo: http://cloud-project.us-east-2.elasticbeanstalk.com
+
