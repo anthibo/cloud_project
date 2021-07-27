@@ -18,6 +18,6 @@ COPY . .
 #importing database
 RUN node ./data/import_db.js --import
 
-EXPOSE 3000
+EXPOSE 8000
 
 CMD  [ "npm", "start" ] 
