@@ -26,7 +26,7 @@ app.route('/')
     })
 
 
-//silly comment to test ci
+
 //ROUTES
 app.use('/students', StudentRouter)
 
